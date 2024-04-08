@@ -1,3 +1,6 @@
+### NAME :SELVAJOEL . S
+### REG NO :212222220040
+
 # Control-of-Relay-Using-IoT-controller
 
 ##  AIM:
@@ -39,9 +42,34 @@ In this Arduino  Relay Control Circuit we have used Arduino to control the relay
 
 ## PROGRAM:
 
+```
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(A0,OUTPUT);
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  digitalWrite(A0,HIGH);
+  delay(3000);
+  digitalWrite(A0,LOW);
+  delay(3000);
+}
+```
 ## CIRCUIT DIAGRAM:
+![319051084-172da698-a33a-43bd-8918-60bf6cd9f8af](https://github.com/Selvajoel/Control-of-Relay-Using-IoT-controller/assets/122252838/ab138c39-0f78-4c90-b3d4-70212f3c1404)
+
 
 ## OUTPUT:
+
+## OFF :
+
+![319049149-bdedb6d6-8a99-4767-ac87-6cfa08778393](https://github.com/Selvajoel/Control-of-Relay-Using-IoT-controller/assets/122252838/85a9bed3-d81a-4ee9-9719-5e6677ff7cbb)
+
+## ON :
+
+![319050194-5ba1ce28-cd6d-42df-8ef3-233f13146683](https://github.com/Selvajoel/Control-of-Relay-Using-IoT-controller/assets/122252838/f469d1c1-26bb-40f4-bf9a-e4007c1bff84)
 
 ## RESULT:
 
